@@ -1,0 +1,32 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Day Percentage</h1>
+
+<div id="mainContainer">
+	
+	<div id="barContainer">
+		<div id="barProgress"></div>
+	</div>
+	<br/>
+	<div id="percentageNumber"></div>
+</div>
+
+
+<div id="settings">
+	<form>
+		<label for="start">Start time:</label>
+		<input type="time" name="start" value="08:00" id="startInput" onkeypress="inputKeypress(event)">
+
+		<label for="end">End time:</label>
+		<input type="time" name="end" value="00:00" id="endInput">
+		<button onclick="updateTimes()" id="updateButton" type="button">Update</button>
+	</form>
+</div>
+
+<script src="main.js"></script>	
+</body>

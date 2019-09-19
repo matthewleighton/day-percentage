@@ -1,0 +1,116 @@
+body {
+	/*background-color: #081B33;*/
+	background-color: #44586a;
+	color: white;
+	font-family: 'Lato';
+}
+
+h1 {
+	position: relative;
+	left: 45%;
+	top: 100%; /*?????*/
+	display: inline-block;
+}
+
+#mainContainer {
+	text-align: center;
+	position: relative;
+	top: 40%;
+}
+
+#barContainer {
+  display: inline-block;
+  width: 90%;
+  background-color: grey;
+}
+
+#barProgress {
+  width: 0%;
+  height: 30px;
+  background-color: #D6552C;
+}
+
+#percentageNumber {
+	color: white;
+	font-family: 'Lato';
+	font-size: 22px;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 90%;
+  display: inline-block;
+  float: right;
+}
+
+.navbar button {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+
+  background-color: #0b6623;
+  border: none;
+  outline: none;
+  font-family: 'Lato';
+  cursor: pointer;
+}
+
+.navbar button:hover {
+	background-color: #0b5613;
+}
+
+
+#updateButton {
+	display: inline-block;
+	text-align: center;
+	position: relative;
+}
+
+#settings {
+	position: fixed;
+	display: inline-block;
+	bottom: 0;
+	font-size: 24px;
+	left: 0;
+	right: 0;
+	margin: 5% auto;
+	max-width: 600px;
+}
+
+#settings input {
+	margin: 0 25px 0 10px;
+	padding: 4px 3px;
+	font-family: 'Lato';
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 17px;
+}
+
+#settings button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 19px;
+	font-family: 'Lato';
+	cursor: pointer;
+}
+
